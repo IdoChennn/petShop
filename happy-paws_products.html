@@ -1,0 +1,757 @@
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="css/topStyle.css">
+        <link rel="stylesheet" href="css/productStyle.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="js/style.js"></script>
+    
+
+    </head>
+    
+    
+    <a class="topLink" href=""><button id="returnToTop">Return to top</button></a>
+    <body onscroll="scroll();">
+        
+        
+        <a name = "top"></a>
+        <div class="container">
+            <!--top section-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <a class="navbar-brand" href="happy_paws_index.html">
+                    <img src="images/icon.jpg" class="d-inline-block align-top logo">
+                    Happy Paws
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                        <a class="nav-link" href="happy_paws_index.html" target="_blank">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link" href="happy-paws_products.html" target="_blank">Products</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="happy_paws_contact.html" target="_blank">Contact</a>
+                        </li>
+
+                        <li>
+                            <a class="nav-link" href="happy_paws_references.html" target="_blank">References</a>
+                        </li>
+                        
+                        <li>
+                            <div class="dropdown show">
+                              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Our cooperaters
+                              </a>
+
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="https://www.petsmart.ca/" target="_blank">Pet Smart</a>
+                                <a class="dropdown-item" href="https://www.petvalu.com/ca" target="_blank">petvalu</a>
+                                <a class="dropdown-item" href="https://www.petonly.ca/" target="_blank">Pet Only</a>
+                              </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="space"></div>
+            
+            <div class="row justify-content-md-center">
+            
+                <div class="col-md-auto">
+                    <img class = "img-fluid banner" src="images/banner.jpg">
+                </div>
+
+            </div>
+            
+            <div class="space-content"></div>
+            
+            <h1 class="text-center">Happy Paw</h1>
+            <h2 class="text-center">"We always have your favorite pets!"</h2>
+    
+            <div class="space-content"></div>
+            
+            <div class="row">
+                <div class="col-sm-4">
+                    <img class="img-fluid top-image" src="images/topImage1.jpg"> 
+               </div>
+               <div class="col-sm-4">
+                    <img class="img-fluid top-image" src="images/topImage2.jpg">  
+               </div>
+               <div class="col-sm-4">
+                    <img class="img-fluid top-image" src="images/topImage3.jpg"s>  
+               </div>
+            </div>
+            
+            <div class="space-content"></div>
+            
+            <h1 class="text-center">Products</h1>
+            
+            <div class="space-content"></div>
+            
+            <div class="parallax-img" id="para">
+    
+                <div class="tint">
+                    <div class="large-img-caption">Reserve your pet online</div>
+                </div>
+            
+            </div>
+            
+            <div class="space"></div>
+            
+            <section>
+                
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <h2>Cat</h2>
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        
+                            <div class="card-body">
+                                
+                                <div class="row">
+
+                                    <div class="col" id="productCarousel">
+
+                                        <div class="slideshow-container">
+
+                                        <div class="mySlides fade-in">
+                                          <div class="numbertext">1 / 3</div>
+                                          <img src="images/productCat.jpg" class = "carouselPicture">
+                                          <div class="text">Calico</div>
+                                        </div>
+
+                                        <div class="mySlides fade-in">
+                                          <div class="numbertext">2 / 3</div>
+                                          <img src="images/productCat2.jpg" class = "carouselPicture">
+                                            <div class="text snowshoe">Snowshoe</div>
+                                        </div>
+
+                                        <div class="mySlides fade-in">
+                                          <div class="numbertext">3 / 3</div>
+                                          <img src="images/productCat3.jpg" class = "carouselPicture">
+                                          <div class="text">British Shorthair</div>
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                                        </div>
+                                        <br>
+
+                                        <script>
+
+                                            var slideIndex = 1;
+                                            showSlides(slideIndex);
+
+
+                                        </script>
+
+
+                                    </div>
+
+                                    <div class="col" id="description">
+                                        <div class="row justify-content-md-center">
+                                            <div class="col-md-auto">
+                                                <h3>We have three types of cat for sale</h3>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="space-content"></div>
+
+
+                                        <div class="row">
+                                            <div class="col-sm">                              
+                                                <div id="accordion2">
+                                                    <div class="card">
+                                                        <div class="card-header" id="heading2">
+                                                            <h5 class="mb-0">
+                                                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                                            <h2>Snowshoe</h2>
+                                                            </button>
+                                                            </h5>
+                                                        </div>
+
+                                                        <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion2">
+                                                            <div class="card-body">
+                                                                <h5>Description:</h5><p>The Snowshoe is a medium sized cat and combines the solid heftiness of the American Shorthair with the lithe elegance of the Siamese. The head is a rounded triangle with a medium length nose that is straight in profile. The eyes are large and slanting. The ears are set wide apart and are large and pointed. The body is long and athletic. When the cat is lifted it feels heavier than it appears. The legs are medium in length and the paws are neat and oval. The tail is medium in length and tapers to a rounded tip.</p>
+
+                                                                <div class="row justify-content-end">
+                                                                    <div class="col-4">
+
+
+                                                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+                                                                            Reserve Now
+                                                                        </button>
+
+                                                                        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                          <div class="modal-dialog" role="document">
+                                                                            <div class="modal-content">
+                                                                              <div class="modal-header">
+                                                                                <h5 class="modal-title" id="exampleModalLabel">Notification</h5>
+                                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                    <span aria-hidden="true">&times;</span>
+                                                                                    </button>
+                                                                              </div>
+                                                                              <div class="modal-body">
+                                                                                You have successfully reserve your Snowshoe online. Please go to our store for paper work. (Product Code:SS20211cat) 
+                                                                              </div>
+                                                                              <div class="modal-footer">
+                                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                                                              </div>
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+
+                                                <div id="accordion3">
+                                                    <div class="card">
+                                                    <div class="card-header" id="heading3">
+                                                      <h5 class="mb-0">
+                                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                                          <h2>Calico</h2>
+                                                        </button>
+                                                      </h5>
+                                                    </div>
+
+                                                    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion3">
+                                                      <div class="card-body">
+                                                          <h5>Description:</h5><p>It is impossible to clone a calico cat with the same markings, because of the random activation of genes. The necessary traits for calico patterning are on the X-chromosome, therefore nearly all calico cats are female. Male calico cats are few and far between, and can only exist as a result of genetic defect.</p>
+
+                                                        <div class="row justify-content-end">
+                                                            <div class="col-4">                                      
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
+                                                                    Reserve Now
+                                                                </button>
+
+                                                                <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                    <div class="modal-dialog" role="document">
+                                                                        <div class="modal-content">
+
+                                                                          <div class="modal-header">
+                                                                            <h5 class="modal-title" id="exampleModalLabel">Notification</h5>
+                                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                              <span aria-hidden="true">&times;</span>
+                                                                            </button>
+                                                                          </div>
+
+                                                                            <div class="modal-body">
+                                                                                You have successfully reserve your calico online. Please go to our store for paper work. (Product Code:C20212cat)
+                                                                            </div>
+
+                                                                          <div class="modal-footer">
+                                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                                                          </div>
+                                                                        </div>
+                                                                     </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> 
+
+                                        <div id="accordion4">
+                                            <div class="card">
+                                                <div class="card-header" id="heading4">
+                                                    <h5 class="mb-0">
+                                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                                                    <h2>British Shorthair</h2>
+                                                    </button>
+                                                    </h5>
+                                                </div>
+
+                                                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion4    ">
+                                                    <div class="card-body">
+                                                        <h5>Description:</h5><p>The British Shorthair is known for both its looks and its typically easygoing and fun-loving personality. The appealing chunkiness of its face and body and its plush, thick fur match its sturdy temperament. The wide-cheeked faces of British Shorthairs appear to be smiling and more expressive than many cat breeds’, and it’s said that they were the inspiration for the wide-grinning Cheshire Cat of Lewis Carroll’s Alice’s Adventures in Wonderland. British Shorthairs are reputed to be doglike in their readiness for fun and games, such as fetching.</p>
+
+                                                    <div class="row justify-content-end">
+                                                        
+                                                        <div class="col-4">
+
+                                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+                                                                Reserve Now
+                                                            </button>
+
+                                                            <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                <div class="modal-dialog" role="document">
+                                                                    <div class="modal-content">
+                                                                        <div class="modal-header">
+                                                                            <h5 class="modal-title" id="exampleModalLabel">Notification</h5>
+                                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                            <span aria-hidden="true">&times;</span>
+                                                                            </button>
+                                                                        </div>
+                                                                        <div class="modal-body">You have successfully reserve your British Shorthair online. Please go to our store for paper work. (Product Code: BS20213cat) 
+                                                                        </div>
+                                                                        <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+                <div class="space"></div>
+                <div class="space"></div>
+
+    <section>
+
+            <div id="accordion5">
+                <div class="card">
+                    <div class="card-header" id="heading5">
+                        <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                        <h2>Bird</h2>
+                        </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion5">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col" id="productCarousel">
+                                    <img style = "width: 500px" src="images/productPsittaciformes.jpg"> 
+
+
+                                </div>
+
+                                <div class="col" id="description">
+                                    <div class="row justify-content-md-center">
+                                        <div class="col-md-auto">
+                                            <h3>For now, only one type of bird is for sale</h3>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="space-content"></div>
+
+
+                                    <div class="row">
+                                        <div class="col-sm">                              
+                <div id="accordion6">
+                    <div class="card">
+                        <div class="card-header" id="heading6">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                                <h2>Psittaciformes</h2>
+                                </button>
+                            </h5>
+                        </div>
+
+                    <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion6">
+                      <div class="card-body">
+                          <h5>Description:</h5><p>We have more than 10 different type of Psittaciformes available in our store. Please go check our store to learn more</p>
+
+                        <div class="row justify-content-end">
+                        <div class="col-4">
+
+
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4">
+                            Reserve Now
+                        </button>
+
+                                <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Notification</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        You have successfully reserve your Psittaciformes online. (Product Code: P20211bird) 
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+                 </div>
+
+
+
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                        </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="space"></div>
+                <section>
+
+                    <div id="accordion9">
+                    <div class="card">
+                    <div class="card-header" id="heading9">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse9" aria-expanded="true" aria-controls="collapse9">
+                          <h2>Dog</h2>
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordion9">
+                    <div class="card-body">
+                    <div class="row">
+
+                    <div class="col" id="productCarousel">
+
+                        <img style="width: 500px;" src="images/productDog.jpg">
+
+
+                    </div>
+
+                    <div class="col" id="description">
+                        <div class="row justify-content-md-center">
+                            <div class="col-md-auto">
+                                <h3>For now, only one type of dog is for sale</h3>
+                            </div>
+                        </div>
+                        <div class="space-content"></div>
+
+
+                                <div class="row">
+                        <div class="col-sm">                              
+                <div id="accordion10">
+                    <div class="card">
+                    <div class="card-header" id="heading10">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse10" aria-expanded="true" aria-controls="collapse10">
+                          <h2>Husky</h2>
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordion10">
+                      <div class="card-body">
+                          <h5>Description:</h5><p>The Siberian Husky is a medium-sized working dog, quick and light on his feet and free and graceful in action. His moderately compact and well furred body, erect ears and brush tail suggest his Northern heritage. His characteristic gait is smooth and seemingly effortless.</p>
+
+                        <div class="row justify-content-end">
+                        <div class="col-4">
+
+
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal5">
+                            Reserve Now
+                        </button>
+
+                                <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Notification</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        You have successfully reserve your Husky online. Please go to our store for paper work. (Product Code: H20211dog) 
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                        </div>
+
+
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                        </div>
+                                </div>
+                </section>
+
+                <div class="space"></div>
+                <section>
+
+                    <div id="accordion12">
+                    <div class="card">
+                    <div class="card-header" id="heading12">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse12" aria-expanded="true" aria-controls="collapse12">
+                          <h2>Hamster</h2>
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div id="collapse12" class="collapse" aria-labelledby="heading12" data-parent="#accordion12">
+                    <div class="card-body">
+                    <div class="row">
+
+                    <div class="col" id="productCarousel">
+
+                       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100 h-300" src="images/productHamster.jpg" alt="First slide">
+                                <div class="text">Campbell’s</div>
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="images/productHamster2.jpg" alt="Second slide">
+                                <div class="text">Syrian</div>
+                            </div>
+
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+
+                    </div>
+
+                    <div class="col" id="description">
+                        <div class="row justify-content-md-center">
+                            <div class="col-md-auto">
+                                <h3>We have two types of hamster for sale</h3>
+                            </div>
+                        </div>
+                        <div class="space-content"></div>
+
+
+            <div class="row">
+            <div class="col-sm">                              
+                <div id="accordion13">
+                    <div class="card">
+                    <div class="card-header" id="heading13">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse13" aria-expanded="true" aria-controls="collapse13">
+                          <h2>Campbell’s</h2>
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div id="collapse13" class="collapse" aria-labelledby="heading13" data-parent="#accordion13">
+                      <div class="card-body">
+                          <h5>Description:</h5><p>Campbell’s, the dwarf hamsters, have a length of 3 – 5 inches. These small rodents are usually gray with a white belly. They live about 1 1/2 – 2 years and can do well living together, but also do fine living alone. Due to their small size, they are a little more difficult than other hamsters.</p>
+
+                        <div class="row justify-content-end">
+                        <div class="col-4">
+
+
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal6">
+                            Reserve Now
+                        </button>
+
+                                <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Notification</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        You have successfully reserve your Campbell’s online. Please go to our store for paper work. (Product Code: C20211hamster)
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div id="accordion14">
+                    <div class="card">
+                    <div class="card-header" id="heading14">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse14" aria-expanded="true" aria-controls="collapse14">
+                          <h2>Syrian</h2>
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div id="collapse14" class="collapse" aria-labelledby="heading14" data-parent="#accordion14">
+                      <div class="card-body">
+                          <h5>Description:</h5><p>Syrians are large hamsters and can grow to 6-7 inches long. They are usually golden brown with a white belly, but are available in a wide variety of colors and types of hair. The long-haired is often called the Teddy Bear hamster. They live about 2 – 2 1/2 years, often prefer to live alone, and tend to make very good pets. This is the most common type of pet hamster.</p>
+
+                        <div class="row justify-content-end">
+                        <div class="col-4">
+
+
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal7">
+                            Reserve Now
+                        </button>
+
+                                <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Notification</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        You have successfully reserve your Syrian online. Please go to our store for paper work. (Product Code: S20211hamster) 
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                      </div>
+                        </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                        </div>
+                            </div>
+            </section>
+            
+            <div class="space"></div>
+            
+            
+            
+            
+            
+            
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            
+        </div>
+        
+        <footer class="page-footer font-small blue pt-4" style="background-color:white;">
+                        <div class="container-fluid text-center text-md-left">
+                          <div class="row">
+                            <div class="col-md-6 mt-md-0 mt-3">
+                              <h5 class="text-uppercase">Happy Paw &copy; 2021</h5>
+                            </div>
+                            <hr class="clearfix w-100 d-md-none pb-3">
+                            <div class="col-md-3 mb-md-0 mb-3">
+                                <h5 class="text-uppercase">Links</h5>
+                                <ul class="list-unstyled">
+                                  <li>
+                                    <a href="#">Privacy Policy</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Terms of Service</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="col-md-3 mb-md-0 mb-3">
+                                <h5 class="text-uppercase">Links</h5>
+                                <ul class="list-unstyled">
+                                  <li>
+                                    <a href="#">Contact</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Careers</a>
+                                  </li>
+                                </ul>
+                              </div>
+                          </div>
+                        </div>
+                    </footer>
+        
+    </body>
+</html>

@@ -1,0 +1,23 @@
+#aboutUs{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: serif;
+    
+}
+
+.team-img {
+    width:400px;
+    border: double 5px;
+}
+
+.nameAndJob{
+    font-size: 35px;
+    font-family: serif;
+}
+
+.biography{
+    font-size: 25px;
+    font-family: serif;
+    font-style: italic;
+    
+}

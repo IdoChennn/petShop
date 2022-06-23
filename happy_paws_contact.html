@@ -1,0 +1,222 @@
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="css/topStyle.css">
+        <link rel="stylesheet" href="css/contactStyle.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="js/style.js"></script>
+  
+    </head>
+    
+    <a class="topLink" href=""><button id="returnToTop">Return to top</button></a>
+    <body onscroll="scrollFunction();">
+        
+
+        <a name = "top"></a>
+        <div class="container">
+            
+            <!-- top section-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <a class="navbar-brand" href="happy_paws_index.html">
+                    <img src="images/icon.jpg" class="d-inline-block align-top logo">
+                    Happy Paws
+                </a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="happy_paws_index.html" target="_blank">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="happy-paws_products.html" target="_blank">Products</a>
+                        
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="happy_paws_contact.html" target="_blank">Contact</a>
+                    </li>
+                        
+                    <li>
+                        <a class="nav-link" href="happy_paws_references.html" target="_blank">References</a>
+                    </li>
+                    
+                    <li>
+                            <div class="dropdown show">
+                              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Our cooperaters
+                              </a>
+
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="https://www.petsmart.ca/" target="_blank">Pet Smart</a>
+                                <a class="dropdown-item" href="https://www.petvalu.com/ca" target="_blank">petvalu</a>
+                                <a class="dropdown-item" href="https://www.petonly.ca/" target="_blank">Pet Only</a>
+                              </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                  </div>
+            </nav>
+            
+            <div class="space"></div>
+            
+            <div class="row justify-content-md-center">  
+                <div class="col-md-auto">
+                    <img class = "img-fluid banner" src="images/banner.jpg">
+                </div>
+            </div>
+            
+            <div class="space-content"></div>
+            
+            <h1 class="text-center">Happy Paw</h1>
+            <h2 class="text-center">"We always have your favorite pets!"</h2>
+    
+            <div class="space-content"></div>
+            
+           <div class="row">
+                <div class="col-sm-4">
+                    <img class="img-fluid top-image" src="images/topImage1.jpg"> 
+               </div>
+               <div class="col-sm-4">
+                    <img class="img-fluid top-image" src="images/topImage2.jpg">  
+               </div>
+               <div class="col-sm-4">
+                    <img class="img-fluid top-image" src="images/topImage3.jpg"s>  
+               </div>
+            </div>
+            
+            <div class="space-content"></div>
+            <!--end of top section-->
+        
+            <h1 class="text-center">Contact</h1>
+            
+            <div class="space-content"></div>
+            
+            
+            
+            
+            <div class="row-xl-5">
+                
+                <div class="col">
+                    
+                    <div class="bgimg-1" id="newimg1">
+                      <div class="caption">
+                        <b class="contactLabel">Enter your full name name please:</b>
+                        <input type="text" id="name" class="textbox" onblur="checkName();" />  
+                      </div>
+                    </div>
+                    
+
+                    <div class = "bar"></div>
+                      
+                    
+
+                    <div class="bgimg-2" id="newimg2">
+                      <div class="caption">
+                        <b class="contactLabel" style="color: white">E-MAIL ADDRESS</b>
+                        <input type="text" id="email" class="textbox" onblur="checkEmail();" />
+                      </div>
+                    </div>
+
+                      <div class="bar"></div>
+            
+                    <div class="bgimg-3" id="newimg3">
+                      <div class="caption">
+                        <b class="contactLabel" style="color: white">REASON FOR MESSAGE</b>
+                            <form>
+                               <div id="drop-down" name="drop-down">
+                                  <b class="contactLabel" style="color: white">Choose a reason</b>
+                                  <select name="product" id="product" class ="textbox" onChange=showHide()>
+                                     <option value="0">General inquiry</option>
+                                     <option value="0" selected>Pricing and bulk rates</option>
+                                      <option value="1">Product info</option>
+                                     <option value="0" selected>Shipping</option>
+                                     <option value="0" selected>Other</option>
+                                  </select>
+                               </div>
+                               <div name="hidden-panel" id="hidden-panel">
+                                   <b class="contactLabel" style="color: white">Enter Product ID: </b>
+                                  <input type="text" name="productId" class="textbox" id="productId" onblur="checkProductId();" />
+                               </div>
+                            </form>
+                      </div>
+                    </div>
+
+
+                    <div class="bar"></div>
+
+                     
+              
+                    <div class="bgimg-1" id="newimg4">
+                      <div class="caption">
+                          <div class="row justify-content-md-center">
+                            <b class="contactLabel">Message</b>
+                          </div>
+                          
+                          <div class="row justify-content-md-center">
+                             
+                                <textarea class="msgBox" id="msgBox" onkeyup="updateCharCount();" onblur="updateTextbox();">Enter 10 to 30 characters ... </textarea> 
+    
+                          </div>
+                          
+                          <div class="row justify-content-md-center">
+                                <b class = "contactLabel" id="char_msg">Number characters entered 0</b>
+                          </div>
+                      </div>
+                    </div>
+                    
+          
+                      <div class = "bar" style="text-align:center;">
+                            <button><b class="contactLabel" >Submit</b></button>
+                            <b class = "contactLabel" id="formFormat"></b>
+                      </div>
+             
+                </div>
+      
+            </div>
+     
+            
+            <div class="space"></div>
+            
+            
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            
+        </div>
+        <footer class="page-footer font-small blue pt-4" style="background-color:white;">
+                        <div class="container-fluid text-center text-md-left">
+                          <div class="row">
+                            <div class="col-md-6 mt-md-0 mt-3">
+                              <h5 class="text-uppercase">Happy Paw &copy; 2021</h5>
+                            </div>
+                            <hr class="clearfix w-100 d-md-none pb-3">
+                            <div class="col-md-3 mb-md-0 mb-3">
+                                <h5 class="text-uppercase">Links</h5>
+                                <ul class="list-unstyled">
+                                  <li>
+                                    <a href="#">Privacy Policy</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Terms of Service</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="col-md-3 mb-md-0 mb-3">
+                                <h5 class="text-uppercase">Links</h5>
+                                <ul class="list-unstyled">
+                                  <li>
+                                    <a href="#!">Contact</a>
+                                  </li>
+                                  <li>
+                                    <a href="#!">Careers</a>
+                                  </li>
+                                </ul>
+                              </div>
+                          </div>
+                        </div>
+        </footer>
+    </body>
+</html>

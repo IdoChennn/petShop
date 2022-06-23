@@ -1,0 +1,90 @@
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-1 {
+  background-image: url("../images/home3.jpg");
+  min-height: 400px;
+}
+
+.bgimg-2 {
+  background-image: url("../images/home2.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("../images/home1.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+#newimg1 {
+	opacity: 0.3;
+	transition: opacity 1s;
+}
+
+#newimg2 {
+	opacity: 0.3;
+	transition: opacity 1s;
+}
+#newimg3 {
+	opacity: 0.3;
+	transition: opacity 1s;
+}
+#newimg4 {
+	opacity: 0.3;
+	transition: opacity 1s;
+}
+
+.textbox {
+    font-size:18px;
+    margin:3px;
+    padding:5px;
+}
+
+#hidden-panel {
+	display: none;
+}
+.msgBox {
+    width:300px;
+    height:100px;
+    resize:none;
+    border: solid 3px;
+    border-radius: 15%;
+}
+
+.contactLabel{
+    font-size: 20px;
+}
+
+.textbox{
+    border-radius: 15%;
+    border: solid 3px;
+}
+
+.bar{
+    background-color:#282E34;
+    padding:50px 80px;
+}

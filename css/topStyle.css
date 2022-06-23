@@ -1,0 +1,70 @@
+.space {
+    margin-bottom:50px;
+}
+.space-content{
+    margin-top: 20px;
+}
+.topLink{
+    bottom:15px;
+    position:fixed;
+}
+#returnToTop{
+    height: 50px;
+    width: 200px;
+    transition-duration: 0.4s;
+    border-radius: 50%;
+}
+
+#returnToTop:hover{
+    background-color: skyblue;
+    color: white;
+}
+body{
+    background-image:url(../images/bodyColor.png);
+    position: relative;
+}
+
+.container{
+    background-image: url(../images/container.png);
+    background-color:lightgoldenrodyellow;
+    border-bottom: solid 5px;
+    border-left: solid 5px;
+    border-right: solid 5px;
+    
+}
+
+.logo{
+    height: 30px;
+}
+
+.banner{
+    border: solid 5px;
+}
+
+.top-image{
+    border-radius: 30%;
+    border: dotted 3px;
+}
+
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+    
